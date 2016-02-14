@@ -12,8 +12,11 @@ Rails.application.routes.draw do
       get "/" => "devise/sessions#new"
     end
   end
+  
+  get '/about' => 'pages#about'
   resources :pages
   resources :conversations do
+ 
     resources :messages
   end
 
