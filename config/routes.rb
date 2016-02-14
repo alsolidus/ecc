@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   end
   
   get '/about' => 'pages#about'
+  resources :contacts
   resources :pages
   resources :conversations do
  
