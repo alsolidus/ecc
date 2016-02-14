@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   authenticated :user do
     root 'users#index'
+    
   end
 
   unauthenticated :user do
@@ -11,7 +12,7 @@ Rails.application.routes.draw do
       get "/" => "devise/sessions#new"
     end
   end
-
+  resources :pages
   resources :conversations do
     resources :messages
   end
