@@ -10317,3 +10317,317 @@ Migrating to AddRightToUser (20160214234221)
             FROM sqlite_temp_master
             WHERE name='index_users_on_email' AND type='index'
 
+
+
+Started GET "/index" for 10.240.0.94 at 2016-02-14 23:50:51 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.4) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.4) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.4) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.4) lib/thin/connection.rb:53:in `process'
+  thin (1.6.4) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.9.1) lib/eventmachine.rb:193:in `run_machine'
+  eventmachine (1.0.9.1) lib/eventmachine.rb:193:in `run'
+  thin (1.6.4) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.4) lib/thin/server.rb:162:in `start'
+  rack (1.5.5) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.5) lib/rack/server.rb:264:in `start'
+  railties (4.1.1) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.1) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:8:in `require'
+  bin/rails:8:in `<top (required)>'
+  spring (1.6.3) lib/spring/client/rails.rb:28:in `load'
+  spring (1.6.3) lib/spring/client/rails.rb:28:in `call'
+  spring (1.6.3) lib/spring/client/command.rb:7:in `call'
+  spring (1.6.3) lib/spring/client.rb:28:in `run'
+  spring (1.6.3) bin/spring:49:in `<top (required)>'
+  spring (1.6.3) lib/spring/binstub.rb:11:in `load'
+  spring (1.6.3) lib/spring/binstub.rb:11:in `<top (required)>'
+  bin/spring:16:in `require'
+  bin/spring:16:in `<top (required)>'
+  bin/rails:3:in `load'
+  bin/rails:3:in `<main>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (187.4ms)
+
+
+Started GET "/home" for 10.240.0.197 at 2016-02-14 23:50:57 +0000
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.4) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.4) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.4) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.4) lib/thin/connection.rb:53:in `process'
+  thin (1.6.4) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.9.1) lib/eventmachine.rb:193:in `run_machine'
+  eventmachine (1.0.9.1) lib/eventmachine.rb:193:in `run'
+  thin (1.6.4) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.4) lib/thin/server.rb:162:in `start'
+  rack (1.5.5) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.5) lib/rack/server.rb:264:in `start'
+  railties (4.1.1) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.1) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:8:in `require'
+  bin/rails:8:in `<top (required)>'
+  spring (1.6.3) lib/spring/client/rails.rb:28:in `load'
+  spring (1.6.3) lib/spring/client/rails.rb:28:in `call'
+  spring (1.6.3) lib/spring/client/command.rb:7:in `call'
+  spring (1.6.3) lib/spring/client.rb:28:in `run'
+  spring (1.6.3) bin/spring:49:in `<top (required)>'
+  spring (1.6.3) lib/spring/binstub.rb:11:in `load'
+  spring (1.6.3) lib/spring/binstub.rb:11:in `<top (required)>'
+  bin/spring:16:in `require'
+  bin/spring:16:in `<top (required)>'
+  bin/rails:3:in `load'
+  bin/rails:3:in `<main>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (116.7ms)
+
+
+Started GET "/pages/" for 10.240.0.94 at 2016-02-14 23:51:30 +0000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (2.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (10.9ms)
+Completed 200 OK in 326ms (Views: 300.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.47 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.197 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.113 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.75 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.206 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.147 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.200 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.208 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.157 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.94 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.47 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.167 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.197 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.113 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.75 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.206 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.208 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.200 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.157 at 2016-02-14 23:51:30 +0000
+
+
+Started GET "/pages/" for 10.240.0.166 at 2016-02-14 23:55:24 +0000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_nav.html.erb (0.9ms)
+Completed 200 OK in 138ms (Views: 136.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.192 at 2016-02-14 23:55:24 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.167 at 2016-02-14 23:55:24 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.208 at 2016-02-14 23:55:24 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.113 at 2016-02-14 23:55:24 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.206 at 2016-02-14 23:55:24 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.165 at 2016-02-14 23:55:25 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.197 at 2016-02-14 23:55:25 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.157 at 2016-02-14 23:55:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.207 at 2016-02-14 23:55:25 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.47 at 2016-02-14 23:55:25 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.145 at 2016-02-14 23:55:25 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.75 at 2016-02-14 23:55:25 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.166 at 2016-02-14 23:55:25 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.192 at 2016-02-14 23:55:25 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.167 at 2016-02-14 23:55:26 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.208 at 2016-02-14 23:55:26 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.113 at 2016-02-14 23:55:26 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.165 at 2016-02-14 23:55:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.197 at 2016-02-14 23:55:26 +0000
+
+
+Started GET "/pages/" for 10.240.0.192 at 2016-02-14 23:55:44 +0000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (0.8ms)
+Completed 200 OK in 144ms (Views: 142.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.75 at 2016-02-14 23:55:44 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.208 at 2016-02-14 23:55:45 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.167 at 2016-02-14 23:55:45 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.207 at 2016-02-14 23:55:45 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.165 at 2016-02-14 23:55:45 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.94 at 2016-02-14 23:55:45 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.145 at 2016-02-14 23:55:45 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.206 at 2016-02-14 23:55:45 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.113 at 2016-02-14 23:55:45 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.47 at 2016-02-14 23:55:45 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.192 at 2016-02-14 23:55:45 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.75 at 2016-02-14 23:55:45 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.208 at 2016-02-14 23:55:46 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.167 at 2016-02-14 23:55:46 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.207 at 2016-02-14 23:55:46 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.197 at 2016-02-14 23:55:46 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.165 at 2016-02-14 23:55:46 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.157 at 2016-02-14 23:55:46 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.94 at 2016-02-14 23:55:46 +0000

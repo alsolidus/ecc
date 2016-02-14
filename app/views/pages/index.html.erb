@@ -2,3 +2,21 @@
   <h1>Welcome to CHS Enterprise Command Center / Network Operations Center</h1>
   <h3>A site which will provide addition facility details and information</h3>
 </div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="well text-center">
+      <h2 class="text-center">Basic Membership</h2>
+      <h4>Basic access to the community.</h4>
+      <br/>
+      <%= link_to "Sign up with Basic", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="well text-center">
+      <h2 class="text-center">Employee Signup</h2>
+      <h4>Sign up for the Employee Account for main details!</h4>
+      <%= link_to "Employee Signup", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+    </div>
+  </div>
+</div>
