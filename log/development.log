@@ -9613,3 +9613,652 @@ Processing by ConversationsController#show as HTML
   Rendered messages/_message.html.erb (23.6ms)
   Rendered conversations/show.html.erb (39.1ms)
 Completed 200 OK in 52ms (Views: 47.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 10.240.0.189 at 2016-02-14 23:06:52 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (56.0ms)
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 278ms (Views: 265.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.147 at 2016-02-14 23:06:52 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.121 at 2016-02-14 23:06:52 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.139 at 2016-02-14 23:06:52 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.156 at 2016-02-14 23:06:52 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.207 at 2016-02-14 23:06:52 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.203 at 2016-02-14 23:06:52 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.189 at 2016-02-14 23:06:52 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.147 at 2016-02-14 23:06:53 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.203 at 2016-02-14 23:06:53 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.156 at 2016-02-14 23:06:53 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.207 at 2016-02-14 23:06:53 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.147 at 2016-02-14 23:06:53 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.189 at 2016-02-14 23:06:53 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.121 at 2016-02-14 23:06:53 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.203 at 2016-02-14 23:06:53 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.156 at 2016-02-14 23:06:53 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.139 at 2016-02-14 23:06:53 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.207 at 2016-02-14 23:06:53 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.200 at 2016-02-14 23:06:53 +0000
+
+
+Started GET "/users/sign_up" for 10.240.0.203 at 2016-02-14 23:07:17 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+Completed 200 OK in 124ms (Views: 122.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.240.0.47 at 2016-02-14 23:09:16 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_nav.html.erb (0.8ms)
+Completed 200 OK in 147ms (Views: 145.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.200 at 2016-02-14 23:09:16 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.167 at 2016-02-14 23:09:16 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.147 at 2016-02-14 23:09:16 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.47 at 2016-02-14 23:09:16 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.203 at 2016-02-14 23:09:16 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.167 at 2016-02-14 23:09:16 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.121 at 2016-02-14 23:09:16 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.189 at 2016-02-14 23:09:16 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.186 at 2016-02-14 23:09:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.147 at 2016-02-14 23:09:17 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.207 at 2016-02-14 23:09:17 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.207 at 2016-02-14 23:09:17 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.147 at 2016-02-14 23:09:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.166 at 2016-02-14 23:09:17 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.167 at 2016-02-14 23:09:17 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.166 at 2016-02-14 23:09:17 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.207 at 2016-02-14 23:09:17 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.207 at 2016-02-14 23:09:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.166 at 2016-02-14 23:09:17 +0000
+
+
+Started GET "/users/sign_up" for 10.240.0.157 at 2016-02-14 23:10:12 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_nav.html.erb (0.8ms)
+Completed 200 OK in 155ms (Views: 152.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.207 at 2016-02-14 23:10:12 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.207 at 2016-02-14 23:10:12 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.197 at 2016-02-14 23:10:13 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.121 at 2016-02-14 23:10:13 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.207 at 2016-02-14 23:10:13 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.121 at 2016-02-14 23:10:13 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.166 at 2016-02-14 23:10:13 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.157 at 2016-02-14 23:10:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.197 at 2016-02-14 23:10:13 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.166 at 2016-02-14 23:10:13 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.157 at 2016-02-14 23:10:13 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.166 at 2016-02-14 23:10:13 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.197 at 2016-02-14 23:10:13 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.189 at 2016-02-14 23:10:14 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.166 at 2016-02-14 23:10:14 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.121 at 2016-02-14 23:10:14 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.157 at 2016-02-14 23:10:14 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.166 at 2016-02-14 23:10:14 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.189 at 2016-02-14 23:10:14 +0000
+
+
+Started GET "/users/sign_in" for 10.240.0.207 at 2016-02-14 23:10:27 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+Completed 200 OK in 220ms (Views: 217.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.240.0.207 at 2016-02-14 23:10:29 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+Completed 200 OK in 158ms (Views: 157.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.207 at 2016-02-14 23:10:29 +0000
+
+
+Started GET "/users/sign_in" for 10.240.0.203 at 2016-02-14 23:13:26 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_nav.html.erb (0.9ms)
+Completed 200 OK in 148ms (Views: 146.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.240.0.200 at 2016-02-14 23:13:32 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lsvPAGF9epR8cs1OMJdoSu4sZ4hqWQ8kIwkr0SIqOZI=", "user"=>{"email"=>"wmdubose@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'wmdubose@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 168ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lsvPAGF9epR8cs1OMJdoSu4sZ4hqWQ8kIwkr0SIqOZI=", "user"=>{"email"=>"wmdubose@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 237ms (Views: 153.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.203 at 2016-02-14 23:13:32 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.47 at 2016-02-14 23:13:32 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.121 at 2016-02-14 23:13:32 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.145 at 2016-02-14 23:13:32 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.207 at 2016-02-14 23:13:32 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.157 at 2016-02-14 23:13:32 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.75 at 2016-02-14 23:13:32 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.200 at 2016-02-14 23:13:33 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.121 at 2016-02-14 23:13:33 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.203 at 2016-02-14 23:13:33 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.47 at 2016-02-14 23:13:33 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.145 at 2016-02-14 23:13:33 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.207 at 2016-02-14 23:13:33 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.75 at 2016-02-14 23:13:33 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.200 at 2016-02-14 23:13:33 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.157 at 2016-02-14 23:13:33 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.147 at 2016-02-14 23:13:33 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.121 at 2016-02-14 23:13:33 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.203 at 2016-02-14 23:13:33 +0000
+
+
+Started GET "/users/sign_up" for 10.240.0.47 at 2016-02-14 23:13:37 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_nav.html.erb (0.8ms)
+Completed 200 OK in 148ms (Views: 146.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.157 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.75 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.200 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.189 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.157 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.47 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.75 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.47 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.157 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.147 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.75 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.207 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.166 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.47 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.157 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.75 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.147 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.157 at 2016-02-14 23:13:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.207 at 2016-02-14 23:13:37 +0000
+
+
+Started POST "/users" for 10.240.0.203 at 2016-02-14 23:13:56 +0000
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lsvPAGF9epR8cs1OMJdoSu4sZ4hqWQ8kIwkr0SIqOZI=", "user"=>{"name"=>"WD", "email"=>"wmdubose@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'wmdubose@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+Completed 200 OK in 293ms (Views: 153.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.200 at 2016-02-14 23:13:56 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.203 at 2016-02-14 23:13:56 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.166 at 2016-02-14 23:13:56 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.200 at 2016-02-14 23:13:56 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.47 at 2016-02-14 23:13:56 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.192 at 2016-02-14 23:13:56 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.121 at 2016-02-14 23:13:56 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.203 at 2016-02-14 23:13:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.166 at 2016-02-14 23:13:56 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.203 at 2016-02-14 23:13:57 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.47 at 2016-02-14 23:13:57 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.145 at 2016-02-14 23:13:57 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.147 at 2016-02-14 23:13:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.200 at 2016-02-14 23:13:57 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.166 at 2016-02-14 23:13:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.200 at 2016-02-14 23:13:57 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.203 at 2016-02-14 23:13:57 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.75 at 2016-02-14 23:13:57 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.47 at 2016-02-14 23:13:57 +0000
+
+
+Started GET "/users/sign_in" for 10.240.0.166 at 2016-02-14 23:14:01 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_nav.html.erb (0.9ms)
+Completed 200 OK in 186ms (Views: 183.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.207 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.207 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.200 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.166 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.189 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.197 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.47 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.207 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.166 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.207 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.47 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.200 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.156 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.207 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.47 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.200 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.207 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.200 at 2016-02-14 23:14:02 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.47 at 2016-02-14 23:14:02 +0000
+
+
+Started POST "/users/sign_in" for 10.240.0.47 at 2016-02-14 23:14:08 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lsvPAGF9epR8cs1OMJdoSu4sZ4hqWQ8kIwkr0SIqOZI=", "user"=>{"email"=>"wmdubose@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'wmdubose@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Binary data inserted for `string` type on column `current_sign_in_ip`
+  [1m[35mSQL (0.7ms)[0m  UPDATE "users" SET "current_sign_in_at" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["current_sign_in_at", "2016-02-14 23:14:08.729147"], ["current_sign_in_ip", "10.240.0.47"], ["sign_in_count", 2], ["updated_at", "2016-02-14 23:14:08.731433"]]
+  [1m[36m (11.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://coder-manual-rails-wmdubose.c9.io:8080/
+Completed 302 Found in 129ms (ActiveRecord: 12.7ms)
+
+
+Started GET "/" for 10.240.0.47 at 2016-02-14 23:14:08 +0000
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"  WHERE (NOT (id = 1))  ORDER BY created_at DESC[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "conversations"  WHERE (conversations.sender_id =1 OR conversations.recipient_id =1)
+  [1m[36mConversation Load (0.3ms)[0m  [1mSELECT "conversations".* FROM "conversations"  WHERE (conversations.sender_id =1 OR conversations.recipient_id =1)  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (1.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT  "messages".* FROM "messages"  WHERE "messages"."conversation_id" = ?  ORDER BY "messages"."id" DESC LIMIT 1[0m  [["conversation_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "messages".* FROM "messages"  WHERE "messages"."conversation_id" = ?  ORDER BY "messages"."id" DESC LIMIT 1  [["conversation_id", 1]]
+  Rendered users/index.html.erb within layouts/application (63.5ms)
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 249ms (Views: 226.2ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.47 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.139 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.139 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.145 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.197 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.186 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.203 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.47 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.156 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.47 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.166 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.200 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.94 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.139 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.145 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.139 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.145 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.47 at 2016-02-14 23:14:09 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.207 at 2016-02-14 23:14:09 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (13.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateRights (20160214232608)
+  [1m[35m (8.7ms)[0m  begin transaction
+  [1m[36m (66.3ms)[0m  [1mCREATE TABLE "rights" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (203.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160214232608"]]
+  [1m[36m (34.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (57.8ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (40.7ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_conversations_on_recipient_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_conversations_on_recipient_id' AND type='index'
+[0m
+  [1m[35m (13.7ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_conversations_on_sender_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_conversations_on_sender_id' AND type='index'
+
+  [1m[36m (20.9ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_messages_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_messages_on_user_id' AND type='index'
+[0m
+  [1m[35m (17.7ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_messages_on_conversation_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_messages_on_conversation_id' AND type='index'
+
+  [1m[36m (19.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (25.6ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mRight Load (8.8ms)[0m  [1mSELECT "rights".* FROM "rights"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (199.4ms)[0m  [1mINSERT INTO "rights" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2016-02-14 23:32:30.392195"], ["name", "basic"], ["updated_at", "2016-02-14 23:32:30.392195"]]
+  [1m[35m (45.3ms)[0m  commit transaction
+  [1m[36mRight Load (5.5ms)[0m  [1mSELECT "rights".* FROM "rights"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "rights" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2016-02-14 23:35:10.992812"], ["name", "employee"], ["updated_at", "2016-02-14 23:35:10.992812"]]
+  [1m[35m (49.1ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "rights" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2016-02-14 23:35:23.654818"], ["name", "VIP"], ["updated_at", "2016-02-14 23:35:23.654818"]]
+  [1m[36m (9.6ms)[0m  [1mcommit transaction[0m
