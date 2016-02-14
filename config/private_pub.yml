@@ -1,9 +1,9 @@
 development:
-  server: "http://localhost:9292/faye"
-  secret_token: "secret"
+  server: "https://wdfayserver.herokuapp.com/"
+  secret_token: "batkaro"
 test:
-  server: "http://localhost:9292/faye"
-  secret_token: "secret"
+  server: "https://wdfayserver.herokuapp.com/"
+  secret_token: "batkaro"
 production:
   server: "https://wdfayserver.herokuapp.com/"
   secret_token: "batkaro"
