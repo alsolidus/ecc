@@ -1,6 +1,6 @@
 <div class="row">
     <div class='col-md-6 col-md-offset-3 text-center'>
-      <% if params[:plan] == '2' %>
+      <% if params[:right] == '2' %>
         <h1 class='text-center'>CHS Employee Account</h1>
         <% else %>
         <h1 class='text-center'>Basic Account</h1>
@@ -8,7 +8,7 @@
     </div>
   <div class="col-md-offset-4 col-md-4">
     <legend class='text-center'>Sign up to chat!</legend>
-    <% if params[:plan] == '2' %>
+    <% if params[:right] == '2' %>
         <%= render "employee_form" %>
     <% else %>
         <%= render "basic_form" %>

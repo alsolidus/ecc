@@ -9,6 +9,7 @@ class User < ActiveRecord::Base
   after_create :create_default_conversation
 
 
+
   private
 
   # for demo purposes

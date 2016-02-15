@@ -22,7 +22,7 @@ li.media a {
   filter: alpha(opacity=1); /* Fix to make div clickable in IE */
 }
 
-.job-title-icon{
+.job-title-icon {
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -30,5 +30,25 @@ li.media a {
   border-radius: 4p x;
   background-color: #337ab7;
   color: white;
+  text-align: center;
   
+}
+
+.well.profile-description {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+
+.well.contact-info {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+
+.well.profile-block {
+  color: #fff;
+  h3 {
+    margin-top: 0;
+  }
 }

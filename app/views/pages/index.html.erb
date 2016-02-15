@@ -29,14 +29,14 @@
         <h2 class="text-center">Basic Membership</h2>
         <h4 class='text-center'>Basic access to the community.</h4>
         <br/>
-        <%= link_to "Sign up with Basic", new_user_registration_path(plan: @basic_right.id), class: 'btn btn-primary btn-lg btn-block' %>
+        <%= link_to "Sign up with Basic", new_user_registration_path(right: @basic_right.id), class: 'btn btn-primary btn-lg btn-block' %>
       </div>
     </div>
     <div class="col-md-6">
       <div class="well">
         <h2 class="text-center">Employee Membership</h2>
         <h4 class='text-center'>Employee Signup!</h4>
-        <%= link_to "Sign up with Pro", new_user_registration_path(plan: @employee_right.id), class: 'btn btn-success btn-lg btn-block' %>
+        <%= link_to "Sign up with Pro", new_user_registration_path(right: @employee_right.id), class: 'btn btn-success btn-lg btn-block' %>
       </div>
     </div>
   <% end %>

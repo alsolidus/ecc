@@ -10,5 +10,5 @@ module UsersHelper
         elsif @user.profile.job_title == "employee"
         "<i class='fa fa-dollar'></i>".html_safe
     end
-end
+  end
 end
