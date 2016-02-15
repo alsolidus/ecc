@@ -14332,3 +14332,95 @@ SyntaxError (/home/ubuntu/workspace/ecc/app/views/users/show.html.erb:1: syntax 
   Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
   Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
   Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (66.0ms)
+
+
+Started GET "/users/1" for 10.240.0.121 at 2016-02-15 03:19:05 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mProfile Load (0.3ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  Rendered users/show.html.erb within layouts/application (25.3ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (undefined method `plan_id' for #<User:0x00000004e3e8e8>):
+    1: <%= @user.profile.first_name %> <%= @user.profile.last_name %>
+    2: <%= @user.profile.job_title %><br/>
+    3: <% if current_user.plan_id == 2 %>
+    4:   <%= @user.profile.phone_number %><br/>
+    5:   <%= @user.profile.contact_email %><br/>
+    6: <% end %>
+  app/views/users/show.html.erb:3:in `_app_views_users_show_html_erb__3423685738661845430_41011500'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (41.4ms)
+
+
+Started GET "/users/1" for 10.240.0.197 at 2016-02-15 03:20:10 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mProfile Load (0.1ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  Rendered users/show.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_nav.html.erb (1.3ms)
+Completed 200 OK in 157ms (Views: 153.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.147 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.197 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.147 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.166 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.165 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.94 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.197 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.165 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.166 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.197 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.147 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.165 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.166 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.147 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.197 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.165 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.166 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.197 at 2016-02-15 03:20:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.165 at 2016-02-15 03:20:10 +0000
