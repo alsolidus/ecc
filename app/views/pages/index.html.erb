@@ -24,10 +24,10 @@
       </div>
     </div>
   <% else %>
-    <div class="col-md-6">
+    <div class="col-md-6 row text-center">
       <div class="well">
         <h2 class="text-center">Basic Membership</h2>
-        <h4>Basic access to the community.</h4>
+        <h4 class='text-center'>Basic access to the community.</h4>
         <br/>
         <%= link_to "Sign up with Basic", new_user_registration_path(plan: @basic_right.id), class: 'btn btn-primary btn-lg btn-block' %>
       </div>
@@ -35,7 +35,7 @@
     <div class="col-md-6">
       <div class="well">
         <h2 class="text-center">Employee Membership</h2>
-        <h4>Employee Signup!</h4>
+        <h4 class='text-center'>Employee Signup!</h4>
         <%= link_to "Sign up with Pro", new_user_registration_path(plan: @employee_right.id), class: 'btn btn-success btn-lg btn-block' %>
       </div>
     </div>

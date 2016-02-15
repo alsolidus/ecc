@@ -24,6 +24,9 @@
             <li>
               <%= link_to "Logout", destroy_user_session_path, method: :delete	  %>
             </li>
+            <li>
+              <%= link_to "Let's Chat", users_path %>
+            </li>
         <% else %>
             <li>
               <%= link_to "Signin", new_user_session_path %>
@@ -36,6 +39,7 @@
          <li>
               <%= link_to "Contact Us", new_contact_path %>
             </li>
+            
        <!-- <li><%= link_to "Tutorial Link", "http://josephndungu.com/tutorials/gmail-like-chat-application-in-ruby-on-rails" %></li> -->
       </ul>
     </div>

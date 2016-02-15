@@ -6,13 +6,13 @@ Rails.application.routes.draw do
   end
 
   authenticated :user do
-    root 'users#index'
+    root 'pages#index'
     
   end
 
   unauthenticated :user do
     devise_scope :user do
-      get "/" => "devise/sessions#new"
+      get "/" => 'pages#index'
     end
   end
   
