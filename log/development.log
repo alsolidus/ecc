@@ -11655,3 +11655,206 @@ Started GET "/assets/users.js?body=1" for 10.240.0.192 at 2016-02-15 00:48:48 +0
 
 
 Started GET "/assets/application.js?body=1" for 10.240.0.145 at 2016-02-15 00:48:48 +0000
+
+
+Started GET "/users/sign_up?plan=1" for 10.240.0.157 at 2016-02-15 00:54:33 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan"=>"1"}
+  Rendered devise/registrations/_basic_form.html.erb (3.4ms)
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_nav.html.erb (5.1ms)
+Completed 200 OK in 168ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.75 at 2016-02-15 00:54:33 +0000
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.157 at 2016-02-15 00:54:33 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.157 at 2016-02-15 00:54:33 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.147 at 2016-02-15 00:54:33 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.47 at 2016-02-15 00:54:33 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.75 at 2016-02-15 00:54:33 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.147 at 2016-02-15 00:54:33 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.75 at 2016-02-15 00:54:33 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.147 at 2016-02-15 00:54:33 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.157 at 2016-02-15 00:54:33 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.47 at 2016-02-15 00:54:33 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.75 at 2016-02-15 00:54:33 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.157 at 2016-02-15 00:54:34 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.145 at 2016-02-15 00:54:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.75 at 2016-02-15 00:54:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.47 at 2016-02-15 00:54:34 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.47 at 2016-02-15 00:54:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.47 at 2016-02-15 00:54:34 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.75 at 2016-02-15 00:54:34 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.113 at 2016-02-15 00:54:34 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.47 at 2016-02-15 00:54:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.186 at 2016-02-15 00:54:34 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.75 at 2016-02-15 00:54:34 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.147 at 2016-02-15 00:54:34 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.113 at 2016-02-15 00:54:35 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.47 at 2016-02-15 00:54:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.186 at 2016-02-15 00:54:35 +0000
+
+
+Started GET "/users/sign_up?plan=1" for 10.240.0.47 at 2016-02-15 00:54:49 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan"=>"1"}
+  Rendered devise/registrations/_basic_form.html.erb (3.1ms)
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_nav.html.erb (0.7ms)
+Completed 200 OK in 172ms (Views: 170.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.113 at 2016-02-15 00:54:49 +0000
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.113 at 2016-02-15 00:54:49 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.145 at 2016-02-15 00:54:49 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.75 at 2016-02-15 00:54:49 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.186 at 2016-02-15 00:54:49 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.145 at 2016-02-15 00:54:49 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.75 at 2016-02-15 00:54:49 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.165 at 2016-02-15 00:54:49 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.47 at 2016-02-15 00:54:50 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.200 at 2016-02-15 00:54:50 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.47 at 2016-02-15 00:54:50 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.113 at 2016-02-15 00:54:50 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.113 at 2016-02-15 00:54:50 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.167 at 2016-02-15 00:54:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.186 at 2016-02-15 00:54:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.113 at 2016-02-15 00:54:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.47 at 2016-02-15 00:54:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.47 at 2016-02-15 00:54:50 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.167 at 2016-02-15 00:54:50 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.157 at 2016-02-15 00:54:50 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.165 at 2016-02-15 00:54:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.75 at 2016-02-15 00:54:51 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.186 at 2016-02-15 00:54:51 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.200 at 2016-02-15 00:54:51 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.145 at 2016-02-15 00:54:51 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.167 at 2016-02-15 00:54:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.113 at 2016-02-15 00:54:51 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.47 at 2016-02-15 00:54:55 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.147 at 2016-02-15 00:54:55 +0000
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.207 at 2016-02-15 00:54:55 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.75 at 2016-02-15 00:54:55 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.167 at 2016-02-15 00:54:55 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.200 at 2016-02-15 00:54:55 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.186 at 2016-02-15 00:54:55 +0000
