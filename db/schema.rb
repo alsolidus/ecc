@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160215051036) do
+ActiveRecord::Schema.define(version: 20160215173449) do
 
   create_table "contacts", force: true do |t|
     t.string   "name"
@@ -30,6 +30,26 @@ ActiveRecord::Schema.define(version: 20160215051036) do
 
   add_index "conversations", ["recipient_id"], name: "index_conversations_on_recipient_id"
   add_index "conversations", ["sender_id"], name: "index_conversations_on_sender_id"
+
+  create_table "hospitals", force: true do |t|
+    t.string   "name"
+    t.string   "state"
+    t.string   "city"
+    t.string   "director"
+    t.string   "zip_code"
+    t.string   "wan_a"
+    t.string   "wan_b"
+    t.string   "as_400"
+    t.string   "facility"
+    t.string   "att_circuit_id"
+    t.string   "verizon_circuit_id"
+    t.string   "oncall_number"
+    t.string   "images"
+    t.text     "comments"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "site_code"
+  end
 
   create_table "messages", force: true do |t|
     t.text     "body"

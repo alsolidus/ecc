@@ -19,9 +19,10 @@ Rails.application.routes.draw do
   get '/about' => 'pages#about'
   resources :contacts
   resources :pages
+  resources :hospitals
   resources :conversations do
  
-    resources :messages
+  resources :messages
   end
 
 

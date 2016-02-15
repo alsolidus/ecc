@@ -1,0 +1,59 @@
+<%= form_for @hospital do |f| %>
+              
+			  <div class="form-group">
+                    <%= f.label :name %>
+                    <%= f.text_field :name, class: 'form-control' %> 
+                </div>
+				
+				 <div class="form-group">
+                    <%= f.label :oncall_number %>
+                    <%= f.text_field :oncall_number, class: 'form-control' %> 
+                </div>
+                <div class="form-group">
+                    <%= f.label :site_code %>
+                    <%= f.text_field :site_code, class: 'form-control' %> 
+                </div>
+                <div class="form-group">
+                    <%= f.label :city %>
+                    <%= f.text_field :city, class: 'form-control' %> 
+                </div>
+                <div class="form-group">
+                    <%= f.label :state %>
+                    <%= f.text_field :state, class: 'form-control' %> 
+                </div>
+                <div class="form-group">
+                  <%= f.label :facility %>
+                  <%= f.select :facility, ['Legacy', 'CHS-14'], {}, class: 'form-control' %>
+                </div>
+           
+                <div class="form-group">
+                    <%= f.label :zip_code %>
+                    <%= f.text_field :zip_code, class: 'form-control' %> 
+                </div>
+                <div class="form-group">
+                    <%= f.label :director %>
+                    <%= f.text_area :director, class: 'form-control' %> 
+                </div>
+
+				 <div class="form-group">
+                    <%= f.label :wan_a %>
+                    <%= f.text_field :wan_a, class: 'form-control' %> 
+                </div>
+				<div class="form-group">
+                    <%= f.label :wan_b %>
+                    <%= f.text_field :wan_b, class: 'form-control' %> 
+                </div>
+				<div class="form-group">
+                    <%= f.label :as_400 %>
+                    <%= f.text_field :as_400, class: 'form-control' %> 
+                </div>
+				<div class="form-group">
+                    <%= f.label :images %>
+                    <%= f.text_field :images, class: 'form-control' %> 
+                </div>
+				
+				<div =class"form-group">
+                    <%= f.submit "Update Profile", class: 'btn btn-primary' %>
+                </div>
+            <% end %>
+

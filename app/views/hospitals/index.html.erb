@@ -1,0 +1,28 @@
+<div class ="row">
+    <div class="col-md-8 col-md-offset-2">
+        <ul class="list-unstyled">
+        <% @hospitals.each do |hospital| %>
+		
+			<li>
+			     <div class="well row <%= cycle('white-bg', '') %>">
+				      <div class="col-sm-4 text-center">
+					     <h2><%= link_to hospital do %> <%= hospital.name %> </h2>
+					      <% end %>
+					       
+					  </div>
+					     <p>
+                           <h3> Site Code: <%= hospital.site_code %> </h3>
+    						City: <%= hospital.city %></br>
+    						State: <%= hospital.state %>
+    						Phone: <%= hospital.oncall_number %>
+    						<%= hospital.facility %>
+    						</p>
+                         </div>
+                   <% end %>
+				</div>
+			</li>
+       
+        </ul>
+    </div>
+</div>
+</div>
