@@ -4,6 +4,7 @@ class User < ActiveRecord::Base
 
   has_many :conversations, :foreign_key => :sender_id
   belongs_to :right
+  has_one :profile
   
   after_create :create_default_conversation
 
