@@ -13,6 +13,7 @@ gem 'private_pub'
 gem 'font-awesome-sass', '4.2.0'
 gem 'thin'
 gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'paperclip', '4.2.1'
 
 group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
