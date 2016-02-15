@@ -41093,3 +41093,354 @@ Started GET "/assets/messages.js?body=1" for 10.240.0.200 at 2016-02-15 21:41:11
 
 
 Started GET "/assets/application.js?body=1" for 10.240.0.207 at 2016-02-15 21:41:11 +0000
+
+
+Started GET "/" for 10.240.0.47 at 2016-02-15 23:23:39 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35mRight Load (0.3ms)[0m  SELECT  "rights".* FROM "rights"  WHERE "rights"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mRight Load (0.1ms)[0m  [1mSELECT  "rights".* FROM "rights"  WHERE "rights"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pages/index.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_nav.html.erb (1.3ms)
+Completed 200 OK in 299ms (Views: 282.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.75 at 2016-02-15 23:23:39 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.75 at 2016-02-15 23:23:39 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.147 at 2016-02-15 23:23:39 +0000
+
+
+Started GET "/assets/hospitals.css?body=1" for 10.240.0.200 at 2016-02-15 23:23:39 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.167 at 2016-02-15 23:23:39 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.186 at 2016-02-15 23:23:39 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.75 at 2016-02-15 23:23:39 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.139 at 2016-02-15 23:23:40 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.47 at 2016-02-15 23:23:40 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.189 at 2016-02-15 23:23:40 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.166 at 2016-02-15 23:23:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.113 at 2016-02-15 23:23:40 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.138 at 2016-02-15 23:23:40 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.75 at 2016-02-15 23:23:40 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.75 at 2016-02-15 23:23:40 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.200 at 2016-02-15 23:23:40 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.167 at 2016-02-15 23:23:40 +0000
+
+
+Started GET "/assets/hospitals.js?body=1" for 10.240.0.186 at 2016-02-15 23:23:40 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.206 at 2016-02-15 23:23:40 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.139 at 2016-02-15 23:23:40 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.75 at 2016-02-15 23:23:40 +0000
+
+
+Started GET "/" for 10.240.0.113 at 2016-02-15 23:23:42 +0000
+Processing by PagesController#index as HTML
+  [1m[35mRight Load (0.2ms)[0m  SELECT  "rights".* FROM "rights"  WHERE "rights"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mRight Load (0.2ms)[0m  [1mSELECT  "rights".* FROM "rights"  WHERE "rights"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pages/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_nav.html.erb (1.5ms)
+Completed 200 OK in 223ms (Views: 221.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/contacts/new" for 10.240.0.75 at 2016-02-15 23:23:46 +0000
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (74.1ms)
+  Rendered layouts/_nav.html.erb (0.9ms)
+Completed 200 OK in 249ms (Views: 243.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 10.240.0.75 at 2016-02-15 23:23:47 +0000
+Processing by PagesController#index as HTML
+  [1m[35mRight Load (0.4ms)[0m  SELECT  "rights".* FROM "rights"  WHERE "rights"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mRight Load (0.2ms)[0m  [1mSELECT  "rights".* FROM "rights"  WHERE "rights"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_nav.html.erb (0.8ms)
+Completed 200 OK in 217ms (Views: 213.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/sign_up?right=2" for 10.240.0.186 at 2016-02-15 23:23:50 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"right"=>"2"}
+  Rendered devise/registrations/_employee_form.html.erb (26.9ms)
+  Rendered devise/shared/_links.erb (1.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (36.9ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+Completed 200 OK in 226ms (Views: 220.9ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users" for 10.240.0.138 at 2016-02-15 23:24:13 +0000
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hVNWqEDWGQicCW9EkFPLWmHQHhSK3/UW0xx0QvH1yZA=", "right"=>"2", "user"=>{"name"=>"William Dubose", "email"=>"wmdubose@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'wmdubose@gmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered devise/registrations/_employee_form.html.erb (10.7ms)
+  Rendered devise/shared/_links.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (14.6ms)
+  Rendered layouts/_nav.html.erb (0.7ms)
+Completed 200 OK in 368ms (Views: 188.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.138 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.138 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.139 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.75 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/hospitals.css?body=1" for 10.240.0.121 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.200 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.192 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.138 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.138 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.186 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.165 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.157 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.138 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.75 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.121 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/hospitals.js?body=1" for 10.240.0.139 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.192 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.200 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.165 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.186 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.139 at 2016-02-15 23:24:14 +0000
+
+
+Started GET "/users/sign_in" for 10.240.0.186 at 2016-02-15 23:24:18 +0000
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"hVNWqEDWGQicCW9EkFPLWmHQHhSK3/UW0xx0QvH1yZA="}
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (22.6ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 218ms (Views: 214.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.121 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.192 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.138 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/hospitals.css?body=1" for 10.240.0.208 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.139 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.200 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.167 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.139 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.165 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.186 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.121 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.75 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.192 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.138 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.208 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/hospitals.js?body=1" for 10.240.0.139 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.167 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.200 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.157 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.139 at 2016-02-15 23:24:18 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.147 at 2016-02-15 23:24:18 +0000
+
+
+Started POST "/users/sign_in" for 10.240.0.200 at 2016-02-15 23:24:24 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hVNWqEDWGQicCW9EkFPLWmHQHhSK3/UW0xx0QvH1yZA=", "user"=>{"email"=>"wmdubose@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'wmdubose@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Binary data inserted for `string` type on column `current_sign_in_ip`
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_at" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["current_sign_in_at", "2016-02-15 23:24:24.189840"], ["current_sign_in_ip", "10.240.0.200"], ["last_sign_in_at", "2016-02-15 14:00:52.444660"], ["last_sign_in_ip", "10.240.0.165"], ["sign_in_count", 5], ["updated_at", "2016-02-15 23:24:24.192003"]]
+  [1m[35m (12.6ms)[0m  commit transaction
+Redirected to http://coder-manual-rails-wmdubose.c9.io:8080/
+Completed 302 Found in 129ms (ActiveRecord: 13.7ms)
+
+
+Started GET "/" for 10.240.0.157 at 2016-02-15 23:24:24 +0000
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Processing by PagesController#index as HTML
+  [1m[35mRight Load (0.1ms)[0m  SELECT  "rights".* FROM "rights"  WHERE "rights"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mRight Load (0.2ms)[0m  [1mSELECT  "rights".* FROM "rights"  WHERE "rights"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mProfile Load (0.3ms)[0m  SELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  Rendered pages/index.html.erb within layouts/application (64.4ms)
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 269ms (Views: 266.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.192 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.157 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/hospitals.css?body=1" for 10.240.0.186 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.200 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.138 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.139 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.189 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.192 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.157 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.192 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.186 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.75 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.157 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.138 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.75 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.139 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/hospitals.js?body=1" for 10.240.0.189 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.200 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.189 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.113 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.139 at 2016-02-15 23:24:24 +0000
+
+
+Started GET "/hospitals" for 10.240.0.200 at 2016-02-15 23:24:29 +0000
+Processing by HospitalsController#index as HTML
+  [1m[36mHospital Load (0.4ms)[0m  [1mSELECT "hospitals".* FROM "hospitals"[0m
+  Rendered hospitals/index.html.erb within layouts/application (13.0ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_nav.html.erb (0.8ms)
+Completed 200 OK in 227ms (Views: 221.3ms | ActiveRecord: 1.4ms)
