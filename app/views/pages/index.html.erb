@@ -1,5 +1,5 @@
 <div class="jumbotron text-center">
-  <h1 class="well">Enterprise Command Center / Network Ops</h1>
+  <h1>Enterprise Command Center / Network Ops</h1>
   <h3>Welcome to our support platform</h3>
 </div>
 <div class="row">
@@ -20,7 +20,7 @@
       <div class="well">
         <h2 class="text-center">Our Hospitals</h2>
         <p>Visit the community to meet other developers, entrepreneurs, and investors!</p>
-        <%= link_to "Visit the community", "#", class: 'btn btn-default btn-lg btn-block' %>
+        <%= link_to "Visit the community", hospitals_path, class: 'btn btn-default btn-lg btn-block' %>
       </div>
     </div>
   <% else %>
@@ -28,7 +28,6 @@
       <div class="well">
         <h2 class="text-center">Basic Membership</h2>
         <h4 class='text-center'>Basic access to the community.</h4>
-        <br/>
         <%= link_to "Sign up with Basic", new_user_registration_path(right: @basic_right.id), class: 'btn btn-primary btn-lg btn-block' %>
       </div>
     </div>
@@ -40,4 +39,3 @@
       </div>
     </div>
   <% end %>
-</div>
