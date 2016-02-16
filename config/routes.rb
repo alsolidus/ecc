@@ -17,6 +17,8 @@ Rails.application.routes.draw do
   end
   
   get '/about' => 'pages#about'
+  
+  resources :posts
   resources :contacts
   resources :pages
   resources :hospitals

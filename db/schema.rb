@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160215173449) do
+ActiveRecord::Schema.define(version: 20160216145319) do
 
   create_table "contacts", force: true do |t|
     t.string   "name"
@@ -61,6 +61,12 @@ ActiveRecord::Schema.define(version: 20160215173449) do
 
   add_index "messages", ["conversation_id"], name: "index_messages_on_conversation_id"
   add_index "messages", ["user_id"], name: "index_messages_on_user_id"
+
+  create_table "posts", force: true do |t|
+    t.string   "comment"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "profiles", force: true do |t|
     t.integer  "user_id"

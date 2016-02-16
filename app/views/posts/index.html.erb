@@ -1,0 +1,27 @@
+
+
+    <div class="main">
+      <div class="container">
+        
+        <!-- Form goes here -->
+
+        
+        <ul class="comments">
+            <% @all_posts.each do |p| %>
+          <li><%= p.comment %></li>  <li><%= p.created_at %></li>
+         
+          
+          <% end %>
+        </ul>
+        
+			<%= form_for(@new_post) do |f| %>  
+    <div class="field"> 
+      <%= f.label :comment %>: 
+      <%= f.text_field :comment %> 
+    </div> 
+    <div class="actions"> 
+    <%= f.submit "Create" %> 
+    </div> 
+  <% end %>
+      </div>
+    </div>
