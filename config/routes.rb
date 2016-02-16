@@ -10,8 +10,8 @@ Rails.application.routes.draw do
     
   end
 
- 
-  
+  root :to => 'pages#index'
+
   get '/about' => 'pages#about'
   resources :contacts
   resources :pages
