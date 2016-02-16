@@ -41636,3 +41636,201 @@ Migrating to AddColumnToHospital (20160215173449)
             FROM sqlite_temp_master
             WHERE name='index_users_on_email' AND type='index'
 [0m
+
+
+Started GET "/" for 10.240.0.186 at 2016-02-16 00:30:33 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by PagesController#index as HTML
+  [1m[36mRight Load (0.3ms)[0m  [1mSELECT  "rights".* FROM "rights"  WHERE "rights"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 20ms
+
+ActiveRecord::RecordNotFound (Couldn't find Right with 'id'=1):
+  app/controllers/pages_controller.rb:3:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (110.5ms)
+  [1m[36mRight Load (5.9ms)[0m  [1mSELECT "rights".* FROM "rights"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "rights" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2016-02-16 00:33:13.546326"], ["name", "basic"], ["updated_at", "2016-02-16 00:33:13.546326"]]
+  [1m[35m (20.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "rights" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2016-02-16 00:33:27.596672"], ["name", "employee"], ["updated_at", "2016-02-16 00:33:27.596672"]]
+  [1m[36m (13.3ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 10.240.0.167 at 2016-02-16 00:34:06 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by PagesController#index as HTML
+  [1m[36mRight Load (0.3ms)[0m  [1mSELECT  "rights".* FROM "rights"  WHERE "rights"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mRight Load (0.2ms)[0m  SELECT  "rights".* FROM "rights"  WHERE "rights"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pages/index.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_nav.html.erb (1.5ms)
+Completed 200 OK in 342ms (Views: 324.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.240.0.167 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/users.css?body=1" for 10.240.0.167 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/hospitals.css?body=1" for 10.240.0.167 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 10.240.0.206 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 10.240.0.121 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.240.0.189 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/conversations.css?body=1" for 10.240.0.207 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/messages.css?body=1" for 10.240.0.167 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 10.240.0.167 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.240.0.206 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.240.0.121 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/private_pub.js?body=1" for 10.240.0.167 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 10.240.0.189 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/chat.js?body=1" for 10.240.0.207 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.240.0.167 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/conversations.js?body=1" for 10.240.0.206 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 10.240.0.189 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/hospitals.js?body=1" for 10.240.0.121 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/messages.js?body=1" for 10.240.0.167 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/users.js?body=1" for 10.240.0.207 at 2016-02-16 00:34:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.240.0.167 at 2016-02-16 00:34:07 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_conversations_on_recipient_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_conversations_on_recipient_id' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_conversations_on_sender_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_conversations_on_sender_id' AND type='index'
+
+  [1m[36m (0.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_messages_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_messages_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_messages_on_conversation_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_messages_on_conversation_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_conversations_on_recipient_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_conversations_on_recipient_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_conversations_on_sender_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_conversations_on_sender_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_messages_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_messages_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_messages_on_conversation_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_messages_on_conversation_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
