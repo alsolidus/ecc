@@ -10,11 +10,7 @@ Rails.application.routes.draw do
     
   end
 
-  unauthenticated :user do
-    devise_scope :user do
-      get "/" => 'pages#index'
-    end
-  end
+ 
   
   get '/about' => 'pages#about'
   resources :contacts
