@@ -1,36 +1,48 @@
-<div class"row">
-	
-<div class="col-md-6">
-    <h1><%= @hospital.name %></h1>
-    <h2>Facility ID: <%= @hospital.site_code%>  </h2>  
-        <div class="well profile-block profile-description">
-            <h3>Facility Details</h3>
-            WAN Router A: <p><%= @hospital.wan_a %></p>
-            ATT Circuit ID: <p><%= @hospital.att_circuit_id %></p>
-            WAN Router B: <p> <%= @hospital.wan_b %> </p>
-            Verizon Circuit ID: <p><%= @hospital.verizon_circuit_id %></p>
-            AS400: <p><%= @hospital.as_400 %> </p>
+<div class="container">
+  	<h1 class="page-header"><%= @hospital.name %></h1>
+      
+  	<h4>Location</h4>
+  	<div class="row">
+      <div class="col-md-4"><h3>Site Code: <%= @hospital.site_code %></h3></div>
+      <div class="col-md-8 inline"><h3> "Address goes here "</h3></div>
+    </div>
+    
+  	<h4>Device Information Here </span></h4>
+  	<div class="row">
+        <div class="col-md-4"><h3>WAN A Router: <%= @hospital.wan_a %> </h3></div>
+        <div class="col-md-4"><h3>WAN B Router: <%= @hospital.wan_b %> </h3></div>
+       	<div class="col-md-4"><h3>AS400: <%= @hospital.as_400 %></h3>  </div>
+    </div>
+  
+  
+  	<h4>Contact Information</span></h4>
+  	<div class="row">
+        <div class="col-xs-4 col-md-4">.col-xs-4 .col-md-4</div>
+        <div class="col-xs-4 col-md-4">.col-xs-4 .col-md-4</div>
+       	<div class="col-xs-4 col-md-4">.col-xs-4 .col-md-4</div>
+    </div>
+  	
+  	<h4> </h4>
+</div>
+
+ 
             
-            <%= @hospital.comments %>
+        <div>
+        <button type="button" class="btn btn-primary btn-md">Edit This Hospital<%= link_to "Edit This Hospital", edit_hospital_path(id: @hospital.id) %></button>
         </div>
   
-    
-   
-        <div class="well profile-block contact-info">
-            <h3>Contact Info</h3>
-            Facility Oncall Phone: <p> <% @hospital.oncall_number %></p>
-            Current Director: <p><% @hospital.director %></p>
-            
-            
-    
-        </div>
-            
-                <div>
-                <button type="button" class="btn btn-primary btn-md">Edit This Hospital<%= link_to "Edit This Hospital", edit_hospital_path(id: @hospital.id) %></button>
-                </div>
-          
-    </div>
-</div>
-<ul>
+       </div>
 
-</ul>
+
+
+
+
+<style>
+h4{	margin-top:50px; }
+h4 span{ font-size:13px; color:grey; }
+[class^="col-"] {
+    background-color: #eee;
+    border: 1px solid #ddd;
+  	overflow:hidden;
+}
+</style>
