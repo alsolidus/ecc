@@ -1,8 +1,17 @@
 class PostsController < ApplicationController
+  before_filter :authenticate, :except => [ :index, :show ]
+
   def index
     @new_post = Post.new
-    @all_posts = Post.order(created_at: :desc).all
+    @posts = Post.order(created_at: :desc).all
   end
+  def new
+     @new_post = Post.new
+  end
+  def show
+    @post = Post.all
+  end
+  
   def create
  			@post = Post.create(post_params)
     if @post.save
@@ -14,7 +23,14 @@ class PostsController < ApplicationController
   end
   
   private
+	
 	def post_params
- 			params.require(:post).permit(:comment)
+ 			params.require(:post).permit(:title, :body , :comment)
         end
+end
+
+def authenticate
+    authenticate_or_request_with_http_basic do |name, password|
+      name == "admin" && password == "admin"
+    end
 end
