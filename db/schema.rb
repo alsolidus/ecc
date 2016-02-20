@@ -79,7 +79,6 @@ ActiveRecord::Schema.define(version: 20160220141246) do
     t.string   "body"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "title"
   end
 
   create_table "profiles", force: true do |t|
