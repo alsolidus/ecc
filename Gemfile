@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'devise'
 gem 'private_pub'
 gem 'font-awesome-sass', '4.2.0'
+gem 'zurb-foundation',  '4.0.0'
 gem 'thin'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'paperclip', '4.2.1'

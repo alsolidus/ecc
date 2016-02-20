@@ -1,0 +1,17 @@
+<h2>Add a new detail here!!!</h2>
+          <p><%= form_for(@new_post) do |f| %> 
+            <div class="field"> 
+              <%= f.label :title %>: 
+              <%= f.text_field :title %> 
+            </div> 
+            <div class="field"> 
+              <%= f.label :body %>: 
+              <%= f.text_field :body %> 
+            </div> 
+            
+              <div class="actions"> 
+              <%= f.submit "Create" %> 
+              </div> 
+                <% end %>
+        </p>
+        

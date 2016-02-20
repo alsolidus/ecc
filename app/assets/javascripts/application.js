@@ -12,8 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require foundation
 //= require bootstrap.min
 //= require private_pub
 //= require chat
 //= require turbolinks
 //= require_tree .
+
+$(document).foundation();

@@ -37,12 +37,13 @@ class HospitalsController < ApplicationController
     else
         redirect_to new_hospital_path, alert: "Error creating user."
     end
-   end
+    end
 
     private
     def hospital_params
         params.require(:hospital).permit(  :name, :contact_email, :description, :facility, :state,  :city,
-        :wan_a, :wan_b, :as_400, :images, :comments, :oncall_number, :att_circuit_id, :verizon_circuit_id, :phone_number )
+        :wan_a, :wan_b, :as_400, :images, :comments, :oncall_number, :att_circuit_id, :verizon_circuit_id, :phone_number, :address,
+        :network_diagram, :facility_contact, :zip_code,  )
     end
     
     def only_current_user
