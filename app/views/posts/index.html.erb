@@ -1,5 +1,156 @@
- <h1>Listing posts</h1>
+<!DOCTYPE html>
+<html lang="en">
 
- <%= render :partial => @posts %>
+<head>
 
- <%= link_to 'New Post', new_post_path %>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Blog Home - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/blog-home.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Blog Entries Column -->
+            <div class="col-md-8">
+
+                <h1 class="page-header">
+                    Latest Running Incident
+                    <small>Current Issue</small>
+                </h1>
+
+                <!-- First Blog Post -->
+                <h2><blink><font size="7" color="FF0000"><u><b> <%= render :partial => @posts.last %></b></u></font></blink>
+                
+                   
+                </h2>
+                <p class="lead">
+                    by <a href="\">CHS Enterprise Command Center </a>
+                </p>
+                <p><span class="glyphicon glyphicon-time">Created at</span> <%= Post.last.created_at.strftime("%m-%d-%Y %H:%M") %></p>
+                <hr>
+                <img class="img-responsive" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRFe3SzOsRo4inTVF9jAeAWyUlvqXdsn2Bc5by-_Wrxhxnrj_wVMw" alt="">
+                <hr>
+               
+                <hr>
+
+                <!-- Second Blog Post -->
+                <h2>
+                    <a href="https://servicedesk.chs.net">Experiencing An Issue That Isn't Above?</a>
+                </h2>
+                <p class="lead">
+                     <a href="https://servicedesk.chs.net">Click Here To Open a Remedy Ticket</a>
+                </p>
+                <p><span class="glyphicon glyphicon-time"></span> Phone Number: 615-465-3100 </p>
+                <hr>
+                <img class="img-responsive" src="http://canvasit.com/wp-content/uploads/2014/12/CIT-Help-Desk-Dec-16.jpg" alt="">
+                <hr>
+               
+
+                <hr>
+
+               
+                <!-- Pager -->
+                <ul class="pager">
+                    <li class="previous">
+                        <a href="#">&larr; Older</a>
+                    </li>
+                    <li class="next">
+                        <a href="#">Newer &rarr;</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4">
+
+                <!-- Blog Search Well -->
+                <div class="well">
+                    <h4> Search</h4>
+                    <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button" disabled>
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        </span>
+                    </div>
+                    <!-- /.input-group -->
+                </div>
+
+                <!-- Blog Categories Well -->
+                <div class="well">
+                    <h4>Check you Internet Speed</h4>
+                   <script type="text/javascript" src="http://100widgets.com/js_data.php?id=169"></script>
+                </div>
+
+                <!-- Side Widget Well -->
+                <div class="well">
+                    <h4>ECC Member</h4>
+                   <a href="\users"> <img class="img-responsive" 
+                   src="http://cdn2.hubspot.net/hub/491550/images/live-chat.png?t=1454091092651&width=223&height=119">
+                  
+
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>CHS NOC & ECC </p>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  <button class="btn btn-default" type="button"> <%= link_to 'New Post', new_post_path %> </button>
