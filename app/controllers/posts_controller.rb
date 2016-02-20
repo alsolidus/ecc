@@ -2,14 +2,15 @@ class PostsController < ApplicationController
   before_filter :authenticate, :except => [ :index, :show ]
 
   def index
-    @new_post = Post.new
-    @posts = Post.order(created_at: :desc).all
+    @posts = Post.all
   end
+  
   def new
      @new_post = Post.new
   end
+  
   def show
-    @post = Post.all
+   @post = Post.find(params[:id])
   end
   
   def create
