@@ -65,13 +65,14 @@ h4 span{ font-size:13px; color:grey; }
  	<div class="row2">
             
         <div class="col-xs-2 col-md-6">
-        <button class="button button2"><%= link_to "Edit This Hospital", edit_hospital_path(id: @hospital.id) %></button>
+        <%= button_to "Edit This Hospital", edit_hospital_path(id: @hospital.id), :method => :get %>
         </div>
            
          
             
             <div class="col-xs-2 col-md-6 float: right">
-              <button class="button button2"> <a href="<%= @hospital.network_diagram %>"> Network Drawing </a> </button>
+            
+              <a href="<%= @hospital.network_diagram %>" class="button green big_button">Network Drawing</a>
            </div>
  </div>
   
